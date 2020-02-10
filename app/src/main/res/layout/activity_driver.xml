@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:id="@+id/rootlayout"
+    tools:context=".DriverActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        >
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="WAMASAA INVESTMENT SACCO"
+        android:textColor="#050505"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_above="@id/txt"
+        android:layout_margin="16dp" >
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_marginRight="6dp"
+            android:text="SIGN-IN"
+            android:textColor="#ffff"
+            android:layout_weight="1"
+            android:background="#f816a463"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+
+            android:id="@+id/btnreg"
+            android:layout_marginRight="6dp"
+            android:text="REGISTER"
+            android:textColor="#ffff"
+            android:layout_weight="1"
+            android:background="#f816a463"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

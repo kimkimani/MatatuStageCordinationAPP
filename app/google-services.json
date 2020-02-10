@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "266882595204",
+    "firebase_url": "https://matatustageapp-60199.firebaseio.com",
+    "project_id": "matatustageapp-60199",
+    "storage_bucket": "matatustageapp-60199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266882595204:android:68ab2aa3e2978fe48985d1",
+        "android_client_info": {
+          "package_name": "com.kim.matatustageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266882595204-ngvih9rj3hi8dvqpg5b1rss1hi7esp9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kim.matatustageapp",
+            "certificate_hash": "1d2f6f6504cce6b41ce8a2c7aa3bff80597a796f"
+          }
+        },
+        {
+          "client_id": "266882595204-fd51ah56n04e501alidhroh44fh36ppp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhln9tmPi3ItTb0NO9RcPXY7h4WwS3Xcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266882595204-fd51ah56n04e501alidhroh44fh36ppp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
